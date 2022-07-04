@@ -4,7 +4,6 @@ puts "Type a number:"
 print ">"
 
 number = gets.chomp.to_i
-i = 0
 
 number.times do
     puts "Salut, ça farte ?"
