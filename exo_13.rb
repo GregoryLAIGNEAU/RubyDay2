@@ -8,15 +8,15 @@ etc..
 
 =end
 
-empty = []
+arr = []
 
 for num in 1..50
     if num < 10
         num = "#{num}".rjust(2, '0')
-        empty.push("jean.dupont.#{num}@email.fr")
+        arr.push("jean.dupont.#{num}@email.fr")
 else
-    empty.push("jean.dupont.#{num}@email.fr")
+    arr.push("jean.dupont.#{num}@email.fr")
     end
 end
 
-puts empty
+puts arr
