@@ -11,12 +11,8 @@ etc..
 arr = []
 
 for num in 1..50
-    if num < 10
         num = "#{num}".rjust(2, '0')
         arr.push("jean.dupont.#{num}@email.fr")
-else
-    arr.push("jean.dupont.#{num}@email.fr")
     end
-end
 
 puts arr
