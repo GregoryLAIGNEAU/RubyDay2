@@ -6,10 +6,10 @@ print "> "
 actualyear = 2022
 dateofbirth = gets.chomp.to_i
 
-while dateofbirth <= actualyear do
-    puts dateofbirth
-    dateofbirth += 1
-end
+# while dateofbirth <= actualyear
+#     puts dateofbirth
+#     dateofbirth += 1
+# end
 
 # Other alternatives
 
@@ -18,7 +18,16 @@ end
 #     dateofbirth += 1
 # end
 
-# for i in dateofbirth..actualyear do
+# for i in dateofbirth..actualyear
 #     puts dateofbirth
 #     dateofbirth += 1
+# end
+
+# dateofbirth.times do
+#     if dateofbirth <= actualyear
+#     puts dateofbirth
+#     dateofbirth += 1
+#     else
+#         break
+#     end
 # end
