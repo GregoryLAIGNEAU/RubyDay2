@@ -1,6 +1,6 @@
 # Écris un programme exo_03.rb qui demande son année de naissance à l'utilisateur, puis qui ressort l'âge que l'utilisateur a eu en 2017.
 
-puts "What your DOB?"
+puts "Quelle est ton année de naissance ?"
 print "> "
-DOB = gets.chomp.to_i
-puts "You was #{2017 - DOB} years old in 2017"
+dob = gets.chomp.to_i
+puts "Tu avais #{2017 - dob} ans en 2017"

@@ -1,7 +1,7 @@
 # Écris un programme exo_05.rb qui demande un nombre à l'utilisateur, puis qui écrit autant de fois "Salut, ça farte ?"
 
-puts "Type a number:"
-print ">"
+puts "Tape un chiffre :"
+print "> "
 
 number = gets.chomp.to_i
 
@@ -19,5 +19,4 @@ end
 
 # for i in 0...number
 #     puts "Salut, ça farte ?"
-#     i += 1
 # end

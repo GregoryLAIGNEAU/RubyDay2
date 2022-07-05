@@ -14,11 +14,11 @@ Bien que légèrement différent dans l'énoncé, ce programme est bien plus dur
 
 =end
 
-puts "Type a number between 1 and 25"
+puts "Tape un nombre entre 1 et 25"
 print "> "
 
 number = gets.chomp.to_i
-puts "Here is the pyramid: "
+puts "Voici la pyramide :"
 
 i = 0
 
@@ -36,7 +36,6 @@ end
 # for i in 1..number
 #     store = (number - i)
 #     puts (space * store) + (symbol * i)
-#     i += 1
 # end
 
 # i = 1

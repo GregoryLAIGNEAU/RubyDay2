@@ -13,11 +13,11 @@ Voici la pyramide :
 
 =end
 
-puts "Type a number between 1 and 25"
+puts "Tape un nombre entre 1 et 25"
 print "> "
 
 num = gets.chomp.to_i
-puts "Here is the pyramid: "
+puts "Voici la pyramide :"
 
 pyramid = ""
 

@@ -1,32 +1,31 @@
 # Écris un programme exo_09.rb qui demande son année de naissance à l'utilisateur, puis qui va ressortir chaque année depuis son année de naissance jusqu'aujourd'hui.
 
-puts "What's your DOB"
+puts "Quelle est ton année de naissance ?"
 print "> "
 
 actualyear = 2022
-dateofbirth = gets.chomp.to_i
+dob = gets.chomp.to_i
 
-while dateofbirth <= actualyear
-    puts dateofbirth
-    dateofbirth += 1
+while dob <= actualyear
+    puts dob
+    dob += 1
 end
 
 # Other alternatives
 
-# until actualyear == dateofbirth - 1
-#     puts dateofbirth
-#     dateofbirth += 1
+# until actualyear == dob - 1
+#     puts dob
+#     dob += 1
 # end
 
-# for i in dateofbirth..actualyear
-#     puts dateofbirth
-#     dateofbirth += 1
+# for i in dob..actualyear
+#     puts dob
 # end
 
-# dateofbirth.times do
-#     if dateofbirth <= actualyear
-#     puts dateofbirth
-#     dateofbirth += 1
+# dob.times do
+#     if dob <= actualyear
+#     puts dob
+#     dob += 1
 #     else
 #         break
 #     end
