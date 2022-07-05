@@ -20,13 +20,11 @@ print "> "
 number = gets.chomp.to_i
 puts "Here is the pyramid: "
 
-i = 1
-symbol = '#'
-space = ' '
+i = 0
 
-while i <= number
-    store = (number - i)
-    puts (space * store) + (symbol * i)
+while i < number
+    print ' ' * (number - i)
+    puts '#' * (i + 1)
     i += 1
 end
 
@@ -36,6 +34,16 @@ end
 # space = ' '
 
 # for i in 1..number
+#     store = (number - i)
+#     puts (space * store) + (symbol * i)
+#     i += 1
+# end
+
+# i = 1
+# symbol = '#'
+# space = ' '
+
+# while i <= number
 #     store = (number - i)
 #     puts (space * store) + (symbol * i)
 #     i += 1
