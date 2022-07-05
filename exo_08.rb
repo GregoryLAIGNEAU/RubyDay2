@@ -4,8 +4,22 @@ puts "Type a number:"
 print "> "
 
 number = gets.chomp.to_i
+i = 0
 
-while number >= 0 do
+while i <= number
     puts number
-    number -= 1
+    number -=1
 end
+
+# Alternatives
+
+# for i in (0..number)
+#     puts number
+#     number -=1
+# end
+
+# (number + 1).times do
+#     puts number
+#     number -= 1
+# end
+
