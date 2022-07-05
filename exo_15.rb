@@ -20,12 +20,22 @@ num = gets.chomp.to_i
 puts "Here is the pyramid: "
 
 pyramid = ""
+
 for i in 0...num
     pyramid = pyramid + "#"
     puts "#{pyramid}"
 end
 
 # Alternatives
+
+# i = 0
+# pyramid = ""
+
+# while i < num
+#     pyramid = pyramid + "#"
+#     puts "#{pyramid}"
+#     i += 1
+# end
 
 # num.times do |i|
 #     puts "#" * (i + 1) 
