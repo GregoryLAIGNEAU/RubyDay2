@@ -9,11 +9,25 @@ etc..
 =end
 
 arr = []
-num = ""
 
-for num in 1..50
-    num = "#{num}".rjust(2, '0')
-    arr.push("jean.dupont.#{num}@email.fr")
+for i in 1..50
+    i = "#{i}".rjust(2, '0')
+    arr.push("jean.dupont.#{i}@email.fr")
 end
 
 puts arr
+
+# Alternatives
+
+# arr = []
+
+# for i in 1..50
+#     if i < 10
+#         i = "0#{i}"
+#         arr.push("jean.dupont.#{i}@email.fr")
+#     else
+#     arr.push("jean.dupont.#{i}@email.fr")
+# end
+# end
+
+# puts arr
