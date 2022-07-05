@@ -3,10 +3,22 @@
 puts "Type a number"
 print "> "
 
-i = 1
+
 number = gets.chomp.to_i
+i = 0
 
 number.times do
-    puts i
     i += 1
+    puts i
 end
+
+# Alternatives
+
+# while i < number
+#     i += 1
+#     puts i
+# end
+
+# for i in 1..number
+#     puts i
+# end
