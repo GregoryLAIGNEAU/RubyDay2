@@ -9,10 +9,11 @@ etc..
 =end
 
 arr = []
+num = ""
 
 for num in 1..50
-        num = "#{num}".rjust(2, '0')
-        arr.push("jean.dupont.#{num}@email.fr")
-    end
+    num = "#{num}".rjust(2, '0')
+    arr.push("jean.dupont.#{num}@email.fr")
+end
 
 puts arr
